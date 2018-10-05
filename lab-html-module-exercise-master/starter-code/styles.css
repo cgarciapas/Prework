@@ -1,0 +1,170 @@
+nav {
+  background-color: #C12127;
+  color: rgba(255,255,255,0.8);
+  padding-top: 15px;
+  height: 50px;
+}
+nav a {
+  color: rgba(255,255,255,0.8);
+  text-decoration: none;
+}
+.top-links {
+  display: inline-block;
+  float: right;
+  padding: 0;
+  margin: 0 20px 0 0;
+}
+.top-links li {
+  display: inline-block;
+  margin: 0 10px;
+}
+.header {
+  background-color: rgb(32, 101, 136);
+  color: white;
+}
+.header-bar {
+  padding: 10px;
+  display: flex;
+}
+.header .header-logo {
+  width: 15%;
+  float: left;
+}
+.header-bar .header-logo img {
+  width: 50%;
+}
+.header-bar .header-search {
+  width: 70%;
+  margin: 0 auto;
+  background-color: rgb(31, 82, 111);
+  padding: 10px;
+}
+.header-bar .header-search input{
+  background-color: rgb(31, 82, 111);
+  border-width: 0;
+}
+.header-bar .header-login {
+  width: 20%;
+  float: right;
+  display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.header-bar .header-login a {
+  color: white;
+  text-decoration: none;
+}
+.header-bar .header-login .search-logo img {
+  width: 40%;
+  margin-left: 10px;
+}
+.header .header-signup {
+  margin: 0 auto;
+  padding: 40px;
+  background-image: url("images/city-scape.svg");
+}
+.header .header-signup .info-signup {
+  width: 60%;
+  margin: 0 auto;
+}
+.header .header-signup .info-signup .block {
+  width: 50%;
+}
+.header .header-signup button {
+  background-color: rgb(240, 146, 51);
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+  border-radius: 20px;
+  padding: 10px 25px 10px 25px;
+  font-size: 18px;
+  display: inline-block;
+  margin-top: 20px;
+  border-color: transparent;
+}
+.collaboration-section {
+  background-color: rgb(39, 53, 71);
+  color: white;
+  line-height: 24px;
+}
+.collaboration-section .info-collaboration {
+  width: 50%;
+  margin: 0 auto;
+  padding: 50px 0 40px 0;
+  display: flex;
+}
+.collaboration-section .info-collaboration .info-image {
+  width: 50%;
+  margin-right: 40px;
+}
+.collaboration-section .info-collaboration .info-image img {
+  margin-top: 70px;
+}
+.collaboration-section .info-collaboration .info-text {
+  width: 50%;
+}
+.collaboration-section .info-collaboration .info-text button {
+  background-color: rgb(203, 56, 55);
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+  border-radius: 20px;
+  padding: 10px 25px 10px 25px;
+  font-size: 18px;
+  display: inline-block;
+  margin-top: 20px;
+  border-color: transparent;
+}
+.collaboration-section .info-collaboration .info-text a {
+  color: white;
+  text-decoration: none;
+}
+.npm-section {
+  background-image: url("images/forklift.svg");
+  color: white;
+  position: relative;
+  min-height: 450px;
+  line-height: 24px;
+}
+.npm-section .npm-info {
+  position: absolute;
+  top: 20%;
+  left: 10%;
+  width: 30%;
+}
+.npm-section .npm-info button {
+  background-color: rgb(49, 68, 88);
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+  border-radius: 20px;
+  padding: 10px 25px 10px 25px;
+  font-size: 18px;
+  display: inline-block;
+  margin-top: 20px;
+  border-color: transparent;
+}
+.blocks-section .blocks-text {
+  text-align: center;
+  margin: 40px 0;
+}
+.blocks-section .blocks-text h2 {
+  color: rgb(83, 88, 98);
+}
+.blocks-section .blocks-text p {
+  color: rgb(135, 145, 156);
+}
+.blocks-section .blocks-info {
+  margin: 0 auto;
+  width: 80%;
+}
+.blocks-section .blocks-info .block {
+  float: left;
+  text-align: center;
+  width: 30%;
+  padding: 15px;
+  line-height: 24px;
+}
+.blocks-section .blocks-info .block a {
+  color: rgb(208, 74, 73);
+}
