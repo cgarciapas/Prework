@@ -4,6 +4,7 @@ var myRover = {
   direction: "N",
   x: 0,
   y: 0,
+  travelLog: []
 };
 
 // ======================
@@ -76,6 +77,30 @@ function moveForward(rover){
 
 moveForward(myRover);
 
+function moveBackward (rover){
+  switch (rover.direction) {
+    case "N":
+      rover.y++;
+      break;
+    
+    case "E":
+      rover.x--;
+      break;
+    
+    case "S":
+      rover.y--;
+      break;
+
+    case "W":
+      rover.x++;
+      break;
+  }
+  console.log("Posición horizontal: " +rover.x);
+  console.log("Posición vertical: " +rover.y);
+}
+
+moveBackward(myRover);
+
 
 function listCommands( str ){
 
@@ -85,9 +110,11 @@ function listCommands( str ){
       case 'f':
         moveForward( myRover );
       break;
+
       case 'l':
         turnLeft( myRover );
       break;
+
       case 'r':
         turnRight( myRover );
       break;
@@ -96,7 +123,4 @@ function listCommands( str ){
 }
 listCommands('rffrfflfrff');
 
-
-
-
-
+//function trackingMovements {
