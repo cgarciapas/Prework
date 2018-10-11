@@ -27,6 +27,7 @@ function turnLeft(rover){
     break;
   }
   console.log("La dirección de Rover es " + rover.direction);
+  myRover.travelLog.push( "turnLeft: " + rover.direction);
 }
 
 turnLeft(myRover);
@@ -50,6 +51,7 @@ function turnRight(rover){
     break;
   }
   console.log("La dirección de Rover es " + rover.direction);
+  myRover.travelLog.push( "turnRight: " + rover.direction);
 }
 turnRight(myRover);
 
@@ -73,6 +75,7 @@ function moveForward(rover){
   }
   console.log("Posición horizontal: " +rover.x);
   console.log("Posición vertical: " +rover.y);
+  myRover.travelLog.push( '(' + rover.x + ',' + rover.y + ')' );
 }
 
 moveForward(myRover);
@@ -97,6 +100,7 @@ function moveBackward (rover){
   }
   console.log("Posición horizontal: " +rover.x);
   console.log("Posición vertical: " +rover.y);
+  myRover.travelLog.push( '(' + rover.x + ',' + rover.y + ')' );
 }
 
 moveBackward(myRover);
@@ -122,5 +126,3 @@ function listCommands( str ){
   } );
 }
 listCommands('rffrfflfrff');
-
-//function trackingMovements {
